@@ -6,6 +6,7 @@ body {
 	align-content: center;
 	background-color: #777;
 	box-sizing: border-box;
+	margin: 0 40px;
 	/*margin: 0 auto 0 auto;*/
 }
 
@@ -15,11 +16,12 @@ header {
 	padding: 30px;
 	color: gray;
 	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 .width {
-	width: 75%;
-	margin: 0 auto 0 auto;
+	/*width: 75%;*/
+	margin: 10px auto 0 auto;
 }
 
 #nav {
@@ -33,7 +35,7 @@ header {
 #crowd {
 	color: gray;
 	background-color: #ebebeb;
-	width: 40%;
+	width: 50%;
 	height: 200px;
 	padding: 20px;
 	float: left;
@@ -41,38 +43,42 @@ header {
 	position: absolute;
 	/*margin-right: 10px;*/
 	/*margin-left: 50px;*/
-	left: 10.3%;
+	/*left: 10.3%;*/
 	line-height: 200%;
 }
 
 .aside {
 	color: gray;
 	background-color: #ebebeb;
-	width: 30%;
+	width: 35%;
 	height: 200px;
 	padding: 20px;
 	float: right;
 	margin-top: 20px;
-	position: absolute;
+	/*position: absolute;*/
 	/*margin-left: 10px;*/
 	/*visibility: hidden;*/
 	/*margin-left: 50px;*/
-	right: 10.3%;
+	/*right: 10.3%;*/
 }
 
 #article {
 	background-color: #777;
 	color: #ebebeb;
-	height: 120px;
-	position: relative;
-	bottom: ;
+	height: 160px;
+	padding-top: 20px;
+	/*position: relative;*/
+	/*bottom: ;*/
 }
 
 #headers {
 	background-color: #ebebeb;
 	color: #777;
 	width: 90%;
-	margin: 0 auto 5px auto;
+	margin: 0 auto 10px auto;
+	position: relative;
+	bottom: -20px;
+	padding: 5px;
 }
 
 #para {
@@ -80,6 +86,9 @@ header {
 	color: #777;
 	width: 90%;
 	margin: 5px auto 0 auto;
+	position: relative;
+	bottom: -20px;
+	padding: 5px;
 }
 
 footer {
@@ -87,16 +96,15 @@ footer {
 	overflow: auto;
 	padding: 30px;
 	/*overflow: auto;*/
-	position: absolute;
-	bottom: 250px;
-	left: 110px;
+	position: relative;
+	top: 10px;
+	/*bottom: 0px;*/
+	/*left: 110px;*/
 	/*float: left;*/
 	background-color: #ebebeb;
 	text-align: center;
 	color: gray;
-	/*margin: 0 auto 0 auto;*/
 	box-sizing: border-box;
-	width: 75%;
 }
 
 
