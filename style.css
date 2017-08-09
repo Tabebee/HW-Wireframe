@@ -6,7 +6,7 @@ body {
 	align-content: center;
 	background-color: #777;
 	box-sizing: border-box;
-	margin: 0 40px;
+	margin: 0 150px;
 	/*margin: 0 auto 0 auto;*/
 }
 
@@ -35,7 +35,7 @@ header {
 #crowd {
 	color: gray;
 	background-color: #ebebeb;
-	width: 50%;
+	width: 40%;
 	height: 200px;
 	padding: 20px;
 	float: left;
@@ -50,7 +50,7 @@ header {
 .aside {
 	color: gray;
 	background-color: #ebebeb;
-	width: 35%;
+	width: 30%;
 	height: 200px;
 	padding: 20px;
 	float: right;
@@ -65,8 +65,11 @@ header {
 #article {
 	background-color: #777;
 	color: #ebebeb;
-	height: 160px;
-	padding-top: 20px;
+	height: 150px;
+	padding-top: 10px;
+	margin-top: 20px;
+	margin-left: -10px;
+	width: 105%;
 	/*position: relative;*/
 	/*bottom: ;*/
 }
@@ -75,9 +78,9 @@ header {
 	background-color: #ebebeb;
 	color: #777;
 	width: 90%;
-	margin: 0 auto 10px auto;
+	margin: 10px auto 10px auto;
 	position: relative;
-	bottom: -20px;
+	bottom: 5px;
 	padding: 5px;
 }
 
@@ -87,7 +90,7 @@ header {
 	width: 90%;
 	margin: 5px auto 0 auto;
 	position: relative;
-	bottom: -20px;
+	bottom: 5px;
 	padding: 5px;
 }
 
@@ -97,7 +100,7 @@ footer {
 	padding: 30px;
 	/*overflow: auto;*/
 	position: relative;
-	top: 10px;
+	top: 15px;
 	/*bottom: 0px;*/
 	/*left: 110px;*/
 	/*float: left;*/
