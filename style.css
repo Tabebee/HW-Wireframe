@@ -10,7 +10,6 @@ body {
 	margin: 0 150px;
 	width: 960px;
 	box-sizing: border-box;
-	/*margin: 0 auto 0 auto;*/
 }
 
 header {
@@ -24,7 +23,6 @@ header {
 }
 
 .width {
-	/*width: 75%;*/
 	margin: 10px auto 10px auto;
 	width: 80%;
 	font-family: sans-serif;
@@ -48,9 +46,6 @@ header {
 	margin-top: 10px;
 	margin-left: 65px;
 	position: absolute;
-	/*margin-right: 10px;*/
-	/*margin-left: 50px;*/
-	/*left: 10.3%;*/
 	line-height: 200%;
 }
 
@@ -64,21 +59,16 @@ header {
 	margin-top: 10px;
 	margin-right: 65px;
 	font-family: "Helvetica Neue";
-	/*position: absolute;*/
-	/*margin-left: 10px;*/
-	/*visibility: hidden;*/
-	/*margin-left: 50px;*/
-	/*right: 10.3%;*/
 }
 
+
+/* Can get this lined up right with section*/
 #article {
 	background-color: #777;
 	color: #ebebeb;
 	height: 150px;
 	padding-top: 10px;
 	margin: 20 auto 0 auto;
-	/*margin-top: 20px;*/
-	/*margin-left: -15px;*/
 	width: 105%;
 	position: relative;
 	bottom: -15px;
@@ -111,16 +101,11 @@ footer {
 	clear: both;
 	overflow: auto;
 	padding: 30px;
-	/*overflow: auto;*/
 	position: relative;
 	top: 15px;
-	/*bottom: 0px;*/
-	/*left: 110px;*/
-	/*float: left;*/
 	background-color: #ebebeb;
 	text-align: center;
 	color: #777;
-	/*box-sizing: border-box;*/
 }
 
 
